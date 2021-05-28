@@ -1,0 +1,114 @@
+.part-1{
+    margin: 0 20px;
+    /* font-family: 'Montserrat', sans-serif; */
+   
+}
+.header{
+    background-image: linear-gradient(to right, #bdc3c7 , #2c3e50,#bdc3c7);
+    /* border-radius: 10px; */
+    margin-bottom: 20px;
+}
+.ul1{
+    display: flex;
+}
+.li1{
+    margin: 15px 25px;
+    list-style: none;
+    
+}
+a{
+    text-decoration: none;
+    color: black;
+    
+    padding: 15px;
+}
+a:hover{
+    background-color: whitesmoke;
+    opacity: 0.7;
+    border-radius: 10px;
+
+}
+.row{
+    display: flex;
+    /* justify-content: space-between; */
+    
+}
+.col{
+    width: 100%;
+    height:100%;
+    /* margin: 5px 10px; */
+    margin: 0 5px;
+    background-image: linear-gradient(to right, #bdc3c7 , #2c3e50);
+    border: 1px solid black;
+}
+img{
+    width: 100%;
+    height: 400px;
+    
+}
+
+.ul2{
+    display: flex;
+    justify-content: flex-start;
+}
+.li2{
+    list-style: none;
+    margin: 5px;
+    
+}
+.li2-1{
+    border: 0.5px solid black;
+}
+.ratings{
+    height: 100px;
+    display: flex;
+}
+.col5{
+    flex-basis: 33%;
+    margin: 5px;
+    text-align: center;
+    
+}
+.imdb,.scroll{
+    border-right: 0.5px solid black;
+}
+h1{
+    text-align: center;
+}
+.col5:hover{
+    text-decoration: underline;
+}
+.written{
+    color: blue;
+}
+.likes{
+    height: 70px;
+    display: flex;
+    
+    
+    
+}
+.like{
+    flex-basis: 50%;
+    
+    
+}
+.like2{
+    
+ display: flex;
+ justify-content: center;
+ 
+    
+}
+.like2 i{
+    margin: 5px;
+    padding: 10px;
+    border: 1px solid lightgray;
+    border-radius: 100%;
+    color:lightgray;
+    
+}
+.like2 i:hover{
+    border: 1px solid black;
+    color: black;
+}
